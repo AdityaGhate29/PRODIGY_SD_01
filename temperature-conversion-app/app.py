@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-# Define conversion functions
+# First I Defined conversion functions according to conversion formulas
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
@@ -44,7 +44,7 @@ def convert_temperature():
     except ValueError:
         label_result.config(text="Invalid input. Please enter a valid number.")
 
-# Create the main window
+# Created the main window
 root = tk.Tk()
 root.title("Temperature Conversion🌡️")
 root.geometry("400x350")
@@ -62,7 +62,7 @@ style.configure("TButton", background="#007acc", foreground="#ffffff", font=("Ar
 style.configure("TEntry", font=("Arial", 12))
 style.map("TButton", background=[('active', '#005f99')])
 
-# Create and place widgets within a frame
+# Created and placed widgets within a frame
 frame = ttk.Frame(root, padding="10 10 10 10", style="TFrame")
 frame.grid(column=0, row=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 frame.columnconfigure(0, weight=1)
@@ -87,9 +87,9 @@ button_convert.grid(column=0, row=3, columnspan=2, pady=20, ipadx=10, ipady=5)
 label_result = ttk.Label(frame, text="Result will be shown here.")
 label_result.grid(column=0, row=4, columnspan=2, padx=10, pady=10)
 
-# Add padding to all children of the frame
+# Added padding to all children of the frame
 for child in frame.winfo_children():
     child.grid_configure(padx=5, pady=5)
 
-# Run the application
+# Finally run the application
 root.mainloop()
