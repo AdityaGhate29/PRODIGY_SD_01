@@ -40,7 +40,5 @@ How to Contribute:
 4. Push your changes to your fork.
 5. Open a pull request detailing the changes you made.
 
-## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
