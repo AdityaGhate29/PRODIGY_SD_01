@@ -22,63 +22,22 @@ cd temperature-conversion-app
 3. Run the Application
 python app.py
 
+## Usage
+1. Open the application.
+2. Enter the temperature value you wish to convert.
+3. Select the original unit of measurement from the dropdown.
+4. Click the "Convert" button.
+5. View the converted temperatures displayed on the screen.
 
+## 🛠️ Development
+Feel free to contribute to this project by forking the repository and submitting pull requests. To report bugs or request features, open an issue in the GitHub repository.
 
+How to Contribute:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Commit your changes with a clear and concise message.
+4. Push your changes to your fork.
+5. Open a pull request detailing the changes you made.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Temperature Conversion Program🌡️
-Overview
-The Temperature Conversion Program is a simple Python application that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. The application provides a graphical user interface (GUI) built with Tkinter, offering an intuitive and user-friendly experience.
-
-Features
-Convert temperatures between Celsius, Fahrenheit, and Kelvin.
-Simple and intuitive GUI.
-Light mode theme with modern styling.
-Real-time conversion with accurate results.
-Installation
-Prerequisites
-Python 3.6 or later
-Tkinter (usually comes pre-installed with Python)
-
-
-python main.py
-Usage
-Enter the temperature value you want to convert in the "Enter Temperature" field.
-Select the input unit (Celsius, Fahrenheit, Kelvin) from the dropdown.
-Click the "Convert" button to see the results in remaining two temperature units.
-
-File Structure
-logic-code.py : The main Python script having the conversion logic program.
-main.py: The main Python script containing the GUI and conversion logic.
-README.md: The documentation file you're currently reading.
-screenshot.png: Screenshot of the application.
-
-Acknowledgements
-This project uses the Tkinter library for the graphical user interface.
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
